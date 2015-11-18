@@ -4,10 +4,11 @@
 
 var ansOne = prompt('What is the qoute?');
 console.log(ansOne);
-var ansOne = ' ';
-var speak = prompt('Who spoke such qoute\?');
-console.log(speak);
+var ansTwo = prompt('Who spoke such qoute\?');
+console.log(ansTwo);
 
-console.log(speak + '+' says\, '+' +'' '+' ansOne);
+
+var qoute = ansTwo + ' ' + 'says\,'+ '\"' + ansOne +' \"';
+console.log(qoute);
 
 //I think I did it correctlly whewwww!!!
